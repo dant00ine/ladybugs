@@ -1,0 +1,46 @@
+:root {
+    --module-size: 33vw;
+}
+
+.wholesvg {
+    /*height: 100px
+    width: 125px;*/
+}
+
+.ladybug {
+    fill:#ff0000;
+    fill-rule:evenodd;
+    stroke:#000000;
+    stroke-width:0.2099698px;
+    stroke-linecap:butt;
+    stroke-linejoin:miter;
+    stroke-opacity:1;
+    animation-play-state: running; 
+}
+
+.ladybug:hover{
+    fill: #7777ff;
+    animation-name: spin;
+    animation-duration: 1s; 
+    /*animation-timing-function: ease-out; */
+    animation-delay: 0s;
+    /*animation-iteration-count: infinite;*/
+    /*animation-fill-mode: none;*/
+    /*animation-play-state: running; */
+}
+
+@keyframes spin {
+    0% {
+        transform-origin: center center;
+    } 
+    100% {
+        transform-origin: center center;
+        transform: rotate(1080deg);    
+    }
+}
+
+
+body{
+    /*background-color: brown;*/
+}
+
